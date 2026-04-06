@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  color: #e2e8f0;
+  background-color: #0f172a;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+body.dark {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+body:not(.dark) {
+  background: #ffffff;
+  color: #0f172a;
+}
+
+/* Light mode overrides to keep UI crisp, solid, and non-faded. */
+body:not(.dark) .bg-slate-900,
+body:not(.dark) .bg-slate-800,
+body:not(.dark) .bg-slate-700,
+body:not(.dark) .bg-slate-700\/50,
+body:not(.dark) .bg-slate-700\/40,
+body:not(.dark) .bg-slate-700\/30,
+body:not(.dark) .bg-slate-800\/90,
+body:not(.dark) .bg-slate-900\/90,
+body:not(.dark) .bg-slate-900\/70,
+body:not(.dark) .bg-surface-900\/70,
+body:not(.dark) .bg-surface-900,
+body:not(.dark) .bg-surface-850,
+body:not(.dark) .bg-surface-800,
+body:not(.dark) .bg-surface-700 {
+  background-color: #ffffff !important;
+}
+
+body:not(.dark) .border-slate-700,
+body:not(.dark) .border-slate-600,
+body:not(.dark) .border-white\/10,
+body:not(.dark) .border-white\/30 {
+  border-color: #e2e8f0 !important;
+}
+
+body:not(.dark) .text-white,
+body:not(.dark) .text-slate-50,
+body:not(.dark) .text-slate-100,
+body:not(.dark) .text-slate-200,
+body:not(.dark) .text-slate-300,
+body:not(.dark) .text-slate-400,
+body:not(.dark) .text-slate-500 {
+  color: #0f172a !important;
+}
+
+body:not(.dark) .hover\:bg-slate-700:hover,
+body:not(.dark) .hover\:bg-slate-800:hover,
+body:not(.dark) .hover\:bg-slate-700\/50:hover {
+  background-color: #f1f5f9 !important;
+}
+
+body:not(.dark) .bg-white\/15,
+body:not(.dark) .bg-white\/10,
+body:not(.dark) .bg-white\/25 {
+  background-color: #ffffff !important;
+}
+
+body:not(.dark) .text-white\/80,
+body:not(.dark) .text-white\/85 {
+  color: #334155 !important;
+}
+
+body:not(.dark) .bg-emerald-950,
+body:not(.dark) .bg-red-950 {
+  background-color: #f8fafc !important;
+}
+
+body:not(.dark) .bg-slate-950\/80,
+body:not(.dark) .bg-slate-950\/60 {
+  background-color: rgba(15, 23, 42, 0.35) !important;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(79, 124, 255, 0.4);
+  color: #f8fbff;
+}
