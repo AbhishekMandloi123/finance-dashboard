@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Finance Dashboard UI
 
 A modern, responsive fintech dashboard built with React, Vite, Tailwind CSS, Recharts, and Context API.
@@ -67,5 +67,4 @@ npm run build
 - All data is frontend-only and persisted in browser localStorage.
 - To reset data, clear localStorage for this site in browser devtools.
 =======
-# finance-dashboard
->>>>>>> 14747173dfadf64afac3bd13888a57c35f454a7f
+
